@@ -1,0 +1,14 @@
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\bin\Debug\netcoreapp2.1\Project.deps.json
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\bin\Debug\netcoreapp2.1\Project.runtimeconfig.json
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\bin\Debug\netcoreapp2.1\Project.runtimeconfig.dev.json
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\bin\Debug\netcoreapp2.1\Project.dll
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\bin\Debug\netcoreapp2.1\Project.pdb
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\obj\Debug\netcoreapp2.1\Project.csproj.CoreCompileInputs.cache
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\obj\Debug\netcoreapp2.1\Project.RazorAssemblyInfo.cache
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\obj\Debug\netcoreapp2.1\Project.RazorAssemblyInfo.cs
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\obj\Debug\netcoreapp2.1\Project.AssemblyInfoInputs.cache
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\obj\Debug\netcoreapp2.1\Project.AssemblyInfo.cs
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\obj\Debug\netcoreapp2.1\Project.RazorTargetAssemblyInfo.cache
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\obj\Debug\netcoreapp2.1\Project.dll
+C:\Users\shazad.shiraz\source\repos\DotnetCoreBoiler\Cronicle\obj\Debug\netcoreapp2.1\Project.pdb

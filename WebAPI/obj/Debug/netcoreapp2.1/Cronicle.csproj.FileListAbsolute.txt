@@ -1,0 +1,15 @@
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\Cronicle.csproj.CoreCompileInputs.cache
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\Cronicle.AssemblyInfoInputs.cache
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\Cronicle.AssemblyInfo.cs
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\bin\Debug\netcoreapp2.1\Cronicle.deps.json
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\bin\Debug\netcoreapp2.1\Cronicle.runtimeconfig.json
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\bin\Debug\netcoreapp2.1\Cronicle.runtimeconfig.dev.json
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\bin\Debug\netcoreapp2.1\Cronicle.dll
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\Cronicle.csprojAssemblyReference.cache
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\Cronicle.RazorAssemblyInfo.cache
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\Cronicle.RazorAssemblyInfo.cs
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\Cronicle.RazorTargetAssemblyInfo.cache
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\bin\Debug\netcoreapp2.1\Cronicle.pdb
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\Cronicle.dll
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\Cronicle.pdb
+C:\Users\shazad.shiraz\source\repos\Cronicle\Cronicle\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
