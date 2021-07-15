@@ -14,6 +14,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using System.ComponentModel.DataAnnotations;
+using Google.Apis.Auth;
 
 namespace Cronicle.Controllers
 {
@@ -23,6 +25,12 @@ namespace Cronicle.Controllers
     {
         private IConfiguration _config;
         private ProjectDbContext DBContext;
+        
+        public class AuthenticateGoogleRequest
+        {
+            [Required]
+            public string IdToken { get; set; }
+        }
 
         public LoginController(IConfiguration config, ProjectDbContext context)
         {
@@ -44,6 +52,38 @@ namespace Cronicle.Controllers
             }
             else {
                 response = CustomResponse.NotFound();
+            }
+
+            return response;
+        }
+        
+        [AllowAnonymous]
+        [HttpPost("Google")]
+        public IActionResult Authenticate([FromBody] AuthenticateGoogleRequest data)
+        {
+            IActionResult response = null;
+
+            GoogleJsonWebSignature.ValidationSettings settings = new GoogleJsonWebSignature.ValidationSettings();
+
+            // Change this to your google client ID
+            settings.Audience = new List<string>() { "CLIENT_ID" };
+
+            GoogleJsonWebSignature.Payload payload = GoogleJsonWebSignature.ValidateAsync(data.IdToken, settings).Result;
+
+            if (!string.IsNullOrEmpty(payload.Email))
+            {
+
+                var user = AddOrAuthenticateGoogle( // USER);
+
+                var tokenString = GenerateJSONWebToken(user);
+                response = Ok(new { token = tokenString });
+            }
+            else {
+                response = NotFound(new CustomResponse()
+                {
+                    message = "Invalid Credentials",
+                    status = 404
+                });
             }
 
             return response;
@@ -72,6 +112,22 @@ namespace Cronicle.Controllers
             // you auttenctication login
 
             return null;
+        }
+        
+         private Users AddOrAuthenticateGoogle(Users us) {
+
+            var user = DBContext.Users.Where(x => x.Email == us.Email).FirstOrDefault();
+
+            if (user != null)
+            {
+                return user;
+            }
+            else {
+                var _user = us;
+                DBContext.Users.Add(_user);
+                DBContext.SaveChanges();
+                return _user;
+            }
         }
     }
 }
